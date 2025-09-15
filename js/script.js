@@ -51,6 +51,7 @@ const events = {
         { date: 21, name: "Fin de Escorpio", emoji: "🦂" }
     ],
     diciembre: [
+        { date: 3, name: "Día del Medico", emoji: "🩺" },
         { date: 22, name: "Termina la Primavera", emoji: "🌸" },
         { date: 21, name: "Comienzo del Verano", emoji: "🏖️" },
         { date: 25, name: "Navidad", emoji: "🎄" },
