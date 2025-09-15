@@ -1,9 +1,7 @@
 const events = {
     enero: [
         { date: 1, name: "Año Nuevo", emoji: "🎉" },
-        { date: 6, name: "Día de Reyes", emoji: "🎁" },
-        { date: 21, name: "???", emoji: "💐" }
-
+        { date: 6, name: "Día de Reyes", emoji: "🎁" }
     ],
     febrero: [
         { date: 14, name: "Día de San Valentín", emoji: "💝", special: true }
