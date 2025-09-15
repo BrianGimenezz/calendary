@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Amor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- <button class="theme-toggle" onclick="toggleTheme()">🌙</button> -->
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="main-title">Calendario de Amor 💌</h1>
+            <p class="subtitle">"Un detalle en cada fecha, un amor de cada día"</p>
+        </header>
+
+        <div class="days-counter">
+            <h3>Días desde que te conocí</h3>
+            <div class="days-number" id="daysCounter">0</div>
+        </div>
+
+        <div class="current-day" id="currentDay">
+            <h3>Hoy es...</h3>
+            <div id="currentDayContent"></div>
+        </div>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="searchBox" placeholder="Buscar evento...">
+            <select class="month-filter" id="monthFilter">
+                <option value="">Todos los meses</option>
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+        </div>
+
+        <div class="calendar-grid" id="calendarGrid"></div>
+    </div>
+
+    <button class="add-button" onclick="addNewEvent()">+</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
